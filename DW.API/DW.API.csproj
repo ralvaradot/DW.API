@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DW.API.Entity\DW.API.Entity.csproj" />
+    <ProjectReference Include="..\DW.API.Services\DW.API.Services.csproj" />
+  </ItemGroup>
+
 </Project>

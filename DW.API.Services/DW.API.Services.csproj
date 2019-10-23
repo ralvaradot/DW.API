@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DW.API.Entity\DW.API.Entity.csproj" />
+    <ProjectReference Include="..\DW.API.Persistence\DW.API.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

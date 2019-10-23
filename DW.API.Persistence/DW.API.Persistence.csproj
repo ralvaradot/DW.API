@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DW.API.Entity\DW.API.Entity.csproj" />
+  </ItemGroup>
+
 </Project>
