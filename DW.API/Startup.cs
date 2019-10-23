@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using DW.API.Entity;
 using DW.API.Persistence;
+using DW.API.Services;
+using DW.API.Services.Implementations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
